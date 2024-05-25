@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hello Gess </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>About Us</h2>
+        <p>Welcome to our Website.  😎.</p>
+    </section>
+    
+    <section id="about">
+        <h2>Philbert n Ferdindan di kick liao muahahaha. KUDETAAAAA!! </h2>
+    </section>
+    
+    <section id="services">
+        <h2>Events</h2>
+        <ul>
+            <li>Black Death</li>
+            <li>3/3 9-11 2024 </li>
+            <li>Ferdinan menjadi titan</li>
+        </ul>
+    </section> 
+    
+    <section id="contact">
+        <h2>Input ur identity </h2>
+        <form id="myForm" onsubmit="return validateForm()" action="destination_page.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="class_num">Class Number:</label>
+            <input type="number" id="class_num" name="class_num" required><br>
+            <label for="class">Class:</label>   
+            <input type="text" id="class" name="class" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
