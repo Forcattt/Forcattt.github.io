@@ -15,14 +15,15 @@ header {
 /* Navigation panel */
 nav ul {
     list-style-type	: none;
-    margin-left 	: 80px;
+    margin-left 	: 6.3vw;
 }
 
 nav ul li {
     display 		: inline;
-    margin-right 	: 100px;
-    border-right 	: 2px solid white;
-    padding-right 	: 90px; 
+    margin-right 	: 5vw; /* 7.82 */
+    border-right 	: 2px	 solid white;
+    padding-right 	: 5vw; 
+    font-size 		: 1.5vw;
 }
 
 nav ul li a {
@@ -91,7 +92,7 @@ pre{
 	text-decoration : underline;
 }
 
-ul li a{
+.sofia{
 	font-family : Sofia;
 	font-size 	: 20px;
 	color 		: #000000;
@@ -104,4 +105,20 @@ ul li a{
 	text-align 	: left;
 	font-size 	: 15px;
 	font-family : courier;
+}
+
+#article{
+	margin-left : 4vw;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
